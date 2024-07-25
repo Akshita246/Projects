@@ -1,0 +1,197 @@
+/* Global styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #141414;
+    color: white;
+}
+
+/* Container */
+.container, .container-2, .container-3, .container-4, .container-5, .container-6, .container-7 {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.container{
+    background: url('https://user-images.githubusercontent.com/16425113/129554147-6ac7ba51-43e7-4c8e-ba77-e646a3ef6b12.jpg') no-repeat center center;
+    width:auto;
+}
+.netflix-logo {
+    width: 120px;
+    height: auto;
+}
+/* Header */
+#header {
+    background-color: black;
+    padding: 20px 0;
+}
+
+.left-container {
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between;
+    padding: 20px; 
+}
+
+.left-container img.netflix-logo {
+    width: 200px; 
+    height: auto; 
+    margin-right: 700px;
+}
+
+.default-ltr-cache-xfvfnh {
+    display: flex;
+    align-items: center; 
+    margin-left: auto;
+}
+
+select {
+    border: 1px solid #ddd; 
+    border-radius: 4px; 
+    padding: 6px 12px; 
+    font-size: 14px;
+    margin-left: 10px; 
+}
+
+button.bt-1 {
+    background-color: #e50914; 
+    color: white;
+    border:none;
+    padding: 0.5px 24px; 
+    font-size: 16px;
+    cursor: pointer; 
+    border-radius: 6px; 
+    margin-left: 10px; 
+    margin-right: 20px;
+    transition: background-color 0.3s ease; 
+}
+
+button.bt-1:hover {
+    background-color: #f40612; 
+}
+
+button.bt-1:focus {
+    outline: none; 
+}
+
+
+.main-nav {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0 0 0 20px;
+}
+
+.nav-item {
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+/* Center Container */
+.center-container {
+    text-align: center;
+    margin: 100px 0;
+}
+
+.center-container h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.center-container h3 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.center-container input {
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.center-container button {
+    padding: 10px 20px;
+    background-color: #e50914;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 6px; 
+}
+
+/* Containers */
+.container-2, .container-3, .container-4, .container-5, .container-6 {
+    text-align: center;
+    margin: 50px 0;
+}
+/* General styles for the footer */
+#footer {
+    background-color: #141414;
+    color: #757575;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+#footer .container-7 {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+#footer h3 {
+    color: #757575;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+#footer a {
+    color: #757575;
+    text-decoration: none;
+    margin: 10px 0;
+    display: block;
+    font-size: 14px;
+}
+
+#footer a:hover {
+    text-decoration: underline;
+}
+
+#footer .left,
+#footer .right {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+#footer .left a,
+#footer .right a {
+    margin: 5px 15px;
+}
+
+#footer .left {
+    margin-bottom: 30px;
+}
+
+#footer .right {
+    margin-bottom: 20px;
+}
+#footer select {
+    margin: 20px 0;
+    background: #333;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    font-size: 14px;
+}
+
+#footer select option {
+    background: #333;
+    color: #fff;
+}
+
+#footer h3:last-of-type {
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+
