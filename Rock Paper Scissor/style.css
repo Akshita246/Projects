@@ -1,0 +1,56 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+    background-color: #003049;
+    color:#fdf0d5;
+}
+h1{
+    text-align: center;
+}
+.choice{
+    height:120px;
+    width:220px;
+    border:2px solid black;
+    border-radius: 50%;
+    display:inline-block;
+    margin-left:150px;
+    margin-top: 20px;
+}
+.choice:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
+#rock{
+    background-image: url("rock.png");
+    background-size: cover;
+}
+#paper{
+    background-image: url("paper.png");
+    background-size: cover;
+}
+#scissors{
+    background-image: url("scissors.png");
+    background-size: cover;
+}
+.score-board{
+    font-size: 40px;
+    display:flex;
+    margin-top: 50px;
+    justify-content: center;
+    gap:300px;
+    text-align: center;
+}
+.msg-container{
+    margin-top: 40px;
+}
+#msg{
+    text-align: center;
+    background-color: #798083;
+    font-size: 30px;
+    display: inline;
+    padding: 10px;
+    margin-left: 550px;
+    border-radius: 10px;
+}
